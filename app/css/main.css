@@ -1,0 +1,27 @@
+body {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-family: Arial;
+  text-align: justify;
+}
+
+h1, h2, h3, h4 {
+  text-align: center;
+}
+
+p {
+  text-indent: 30px;
+}
+
+.grid-cont {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  column-gap: 20px;
+  margin: 10px 60px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
