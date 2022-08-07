@@ -1,0 +1,16 @@
+@mixin zero () {
+    margin: 0;
+    padding: 0;
+}
+
+@mixin none() {
+    display: none;
+}
+
+@mixin forlinks() {
+    text-decoration: none;
+}
+
+@mixin finger() {
+    cursor: pointer;
+}

@@ -1,0 +1,72 @@
+@charset "UTF-8";
+.container {
+  background-size: cover;
+}
+
+.cont-grid {
+  display: grid;
+  margin: auto;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  width: 500px;
+}
+
+.feature {
+  padding: 20px 10px;
+  font-size: 25px;
+}
+
+footer {
+  background-color: #b8b8b8;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+.grid-footer {
+  margin: 0px;
+  padding-top: 20px;
+  display: grid;
+  grid-template: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+#top {
+  text-align: right;
+  position: fixed; /*двигается вместе с экраном*/
+  right: 20px; /*от правого угла*/
+  top: 10px; /*от верхнего угла*/
+  opacity: 0;
+  transition: all 0.5s ease-in;
+}
+
+.sign {
+  width: 50px;
+  height: auto;
+}
+
+html {
+  scroll-behavior: smooth; /*плавная прокрутка страницы при нажатии на "вверх"*/
+}
+
+body {
+  background-image: url(../img/imgFon.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  font-size: 18px;
+  font-family: Arial;
+  text-align: justify;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+h1, h2, h3, h4 {
+  text-align: center;
+}
+
+p {
+  text-indent: 30px;
+}

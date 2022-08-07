@@ -1,0 +1,27 @@
+@import '_header';
+@import '_footer';
+@import '_mixins';
+
+html {
+    scroll-behavior: smooth; /*плавная прокрутка страницы при нажатии на "вверх"*/
+}
+
+body {
+    background-image: url(../img/imgFon.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-size: 18px;
+    font-family: Arial;
+    text-align: justify;
+    @include zero;
+    height: 100%
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+}
+
+p {
+    text-indent: 30px;
+}

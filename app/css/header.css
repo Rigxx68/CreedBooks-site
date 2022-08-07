@@ -1,0 +1,10 @@
+.container {
+  background-color: blue;
+  text-align: center;
+}
+
+.feature {
+  padding: 20px 10px;
+  display: inline-block;
+  font-size: 25px;
+}
