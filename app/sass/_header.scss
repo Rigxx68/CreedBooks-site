@@ -1,20 +1,13 @@
 @import '_colors';
 @import '_mixins';
 
-.container {
-    background-size: cover;
-}
-
-.cont-grid{
+.head-grid{
     display: grid;
     margin: auto; //чтобы блок посередине был
+    justify-content: center;
     align-items: center; //вертикально посередине
     grid-template-columns: 1fr 1fr;
-    width: 500px;
 }
 
-.feature{
-    padding: 20px 10px;
-    font-size: 25px;
-}
+
 

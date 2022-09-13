@@ -15,7 +15,7 @@ list.innerHTML = links.join('');
  * переключение между скрытием и отображением раскрывающегося содержимого */
 function showList() {
     if (document.getElementById("list").classList.contains('list-content')) {
-        document.getElementById("list").style.height = "320px";
+        document.getElementById("list").style.height = "92%";
         document.getElementById("list").classList.toggle("list-content");
     }
     else {

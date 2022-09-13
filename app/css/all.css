@@ -1,19 +1,10 @@
 @charset "UTF-8";
-.container {
-  background-size: cover;
-}
-
-.cont-grid {
+.head-grid {
   display: grid;
   margin: auto;
+  justify-content: center;
   align-items: center;
   grid-template-columns: 1fr 1fr;
-  width: 500px;
-}
-
-.feature {
-  padding: 20px 10px;
-  font-size: 25px;
 }
 
 footer {
@@ -35,15 +26,8 @@ footer {
 #top {
   text-align: right;
   position: fixed; /*двигается вместе с экраном*/
-  right: 20px; /*от правого угла*/
-  top: 10px; /*от верхнего угла*/
   opacity: 0;
   transition: all 0.5s ease-in;
-}
-
-.sign {
-  width: 50px;
-  height: auto;
 }
 
 html {
@@ -55,7 +39,6 @@ body {
   background-size: cover;
   background-attachment: fixed;
   color: white;
-  font-size: 18px;
   font-family: Arial;
   text-align: justify;
   margin: 0;
